@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-dotenv
+langgraph
+langchain-core
+google-generativeai
+httpx
+sse-starlette
+python-multipart
+pytest
+pytest-asyncio
