@@ -32,7 +32,7 @@ class Settings(BaseSettings):
 
     tavily_api_key: str | None = None
 
-    allowed_origins: str = "http://localhost:5173,http://localhost:3000,http://127.0.0.1:3000"
+    allowed_origins: str = "http://localhost:5173,http://localhost:3000,http://127.0.0.1:3000,https://scholar-synth-tavily.vercel.app/"
 
     max_subquestions: int = 4
     max_search_queries_per_subquestion: int = 3
